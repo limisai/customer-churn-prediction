@@ -1,0 +1,45 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage*
+htmlcov/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+secrets/
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+
+# Temporary and generated files
+*.tmp
+*.bak
+*.log
+*.swp
+~$*
+.DS_Store
+Thumbs.db
+build/
+dist/
+*.egg-info/
+artifacts/
+checkpoints/
+*.joblib
+*.pkl
+*.pt
+*.pth
+
+# Dataset downloaded separately
+/data/raw/Telco-Customer-Churn.csv
