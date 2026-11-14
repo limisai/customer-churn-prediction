@@ -5,7 +5,7 @@ import pandas as pd
 
 
 DATASET_PATH = Path(__file__).resolve().parent / "data/synthetic/synthetic_customer_churn.csv"
-CUSTOMER_COUNT = 7043
+CUSTOMER_COUNT = 10_000
 SEED = 42
 
 
